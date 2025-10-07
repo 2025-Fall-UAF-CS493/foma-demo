@@ -1,7 +1,7 @@
 {
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "sudo apt update && sudo apt install graphviz",
+  "postCreateCommand": "sudo apt update && sudo apt install -y graphviz",
   "customizations": {
     "codespaces": {
       "openFiles": []
